@@ -1,0 +1,7 @@
+services:
+  linebot:
+    image: python:3.8
+    working_dir: /opt
+    volumes:
+      - ./:/opt
+    tty: true
